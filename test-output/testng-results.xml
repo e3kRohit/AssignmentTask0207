@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-10T03:27:45 GMT" name="Default suite" finished-at="2024-01-10T03:27:50 GMT" duration-ms="4733">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestNgRunner@793f29ff]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-01-10T03:27:45 GMT" name="Default test" finished-at="2024-01-10T03:27:50 GMT" duration-ms="4733">
+      <class name="CucumberOptions.TestNgRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:CucumberOptions.TestNgRunner@793f29ff]" started-at="2024-01-10T03:27:45 GMT" name="setUpClass" finished-at="2024-01-10T03:27:45 GMT" duration-ms="171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@67440de6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestNgRunner@793f29ff]" started-at="2024-01-10T03:27:45 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T03:27:50 GMT" duration-ms="4519" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Incorrect email validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Incorrect email validation"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.java.PendingException">
+            <message>
+              <![CDATA[TODO: implement me]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at StepDefinition.MainSteps.user_is_on_home_page(MainSteps.java:31)
+at ✽.user is on home page(file:///C:/Users/divya/eclipse-workspace/AssignmentTask0207/src/test/java/feature/TestScenario.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.java.PendingException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:CucumberOptions.TestNgRunner@793f29ff]" started-at="2024-01-10T03:27:50 GMT" name="tearDownClass" finished-at="2024-01-10T03:27:50 GMT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- CucumberOptions.TestNgRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
